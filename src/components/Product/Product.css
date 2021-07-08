@@ -1,0 +1,24 @@
+.main-container {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+.main-container h3 {
+  font-weight: 400;
+  font-size: 10pt;
+  color: blue;
+}
+.product-img {
+  margin-right: 10px;
+}
+.product-detail p {
+  margin: 0 !important;
+}
+.product-detail button {
+  background-color: #f0c14b;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
