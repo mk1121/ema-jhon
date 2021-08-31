@@ -26,10 +26,12 @@ const Product = (props) => {
           <small>only {stock} left in stock - order soon </small>
         </p>{" "}
         <br />
-        <button onClick={() => props.addEventHandler(props.product)}>
-          <FontAwesomeIcon icon={faShoppingCart} />
-          add to cart
-        </button>
+        {props.showAddToCart === true && (
+          <button onClick={() => props.addEventHandler(props.product)}>
+            <FontAwesomeIcon icon={faShoppingCart} />
+            add to cart
+          </button>
+        )}
       </div>
     </div>
   );

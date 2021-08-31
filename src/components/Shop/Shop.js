@@ -22,6 +22,7 @@ const Shop = () => {
             key={data.key}
             product={data}
             addEventHandler={addEventHandle}
+            showAddToCart={true}
           ></Product>
         ))}
       </div>

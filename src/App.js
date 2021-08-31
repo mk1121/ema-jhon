@@ -26,7 +26,7 @@ function App() {
           <Route path="/inventory">
             <Inventory />
           </Route>
-          <Route path="/product/:key">
+          <Route path="/product/:pdKey">
             <ProductDetails />
           </Route>
           <Route path="*">
